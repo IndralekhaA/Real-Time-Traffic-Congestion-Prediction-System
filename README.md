@@ -62,7 +62,7 @@ Traffic congestion is a growing problem in urban areas. Predicting traffic conge
 ### Install these with the following command:
    ```bash
    pip install -r requirements.txt
-   ```
+```
 
 ## Usage
 1. Data Ingestion: To ingest real-time traffic data from an external API, run the following script:
@@ -73,7 +73,7 @@ Traffic congestion is a growing problem in urban areas. Predicting traffic conge
    ```bash
    python predict_traffic.py
    ```
-3.  For model training and evaluation:
+3. For model training and evaluation:
    ```bash
    python model_training.py
    ```
