@@ -49,7 +49,7 @@ Traffic congestion is a growing problem in urban areas. Predicting traffic conge
    ```
    Be sure to add .env to your .gitignore file to keep it out of version control.
 
-##Dependencies
+## Dependencies
    pandas - For data manipulation
    scikit-learn - For machine learning models
    tensorflow - For deep learning (if using neural networks)
@@ -58,12 +58,12 @@ Traffic congestion is a growing problem in urban areas. Predicting traffic conge
    flask - For API deployment (if needed)
    psycopg2 - For PostgreSQL database connection
 
-#Install these with the following command:
+# Install these with the following command:
    ```bash
    pip install -r requirements.txt
    ```
 
-##Usage
+## Usage
 1. Data Ingestion: To ingest real-time traffic data from an external API, run the following script:
    ```bash
    python data_ingestion.py
@@ -76,7 +76,7 @@ Traffic congestion is a growing problem in urban areas. Predicting traffic conge
    ```bash
    python model_training.py
    ```
-##Contribution
+## Contribution
 If you'd like to contribute to this project, please fork the repository, create a new branch, and submit a pull request with your improvements.
 
 
