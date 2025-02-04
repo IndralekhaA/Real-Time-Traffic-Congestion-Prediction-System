@@ -42,6 +42,7 @@ Traffic congestion is a growing problem in urban areas. Predicting traffic conge
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows use venv\Scripts\activate
+   ```
 4. Create a .env file to store sensitive information like API keys, database credentials, etc.
    Example .env:
    ```bash
@@ -50,15 +51,15 @@ Traffic congestion is a growing problem in urban areas. Predicting traffic conge
    Be sure to add .env to your .gitignore file to keep it out of version control.
 
 ## Dependencies
-   pandas - For data manipulation
-   scikit-learn - For machine learning models
-   tensorflow - For deep learning (if using neural networks)
-   requests - For API calls to retrieve real-time traffic data
-   apache-kafka - For real-time data streaming
-   flask - For API deployment (if needed)
-   psycopg2 - For PostgreSQL database connection
+   - *pandas* - For data manipulation
+   - *scikit-learn* - For machine learning models
+   - *tensorflow* - For deep learning (if using neural networks)
+   - *requests* - For API calls to retrieve real-time traffic data
+   - *apache-kafka* - For real-time data streaming
+   - *flask* - For API deployment (if needed)
+   - *psycopg2* - For PostgreSQL database connection
 
-# Install these with the following command:
+### Install these with the following command:
    ```bash
    pip install -r requirements.txt
    ```
